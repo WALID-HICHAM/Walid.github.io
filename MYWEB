@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style> 
+                            /**start nain rulez**/
+  body
+{
+
+height: 4000px;
+}
+.continer
+{
+width: 1170px;
+margin: auto;
+
+}
+.clearfix{clear: both;}
+
+
+                            /**end nain rulez**/
+
+    /*start header*/
+.header .slider
+{
+    background-color: #eee;
+    height: 600px;
+    background-image: url(../images/wallpaperflare.com_wallpaper\ \(5\).jpg);
+    background-repeat: no-repeat;
+    
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.header .slider .intro
+{
+ padding-top: 200px;
+    text-align: center;
+    color: #fff;
+}
+.header .slider .intro h2
+{
+    margin: 0 auto;
+font-size: 50px;
+width: 600px;
+border-top:4px solid #fff ;
+border-bottom: 4px solid #FFF;
+padding: 5px 0;
+}
+.header .slider .intro button
+{
+    background: none;
+    color: #FFF;
+    margin-top: 30px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+.header .navbar
+{
+    background-color: #252f31;
+    color: #FFF;
+    overflow: hidden;
+}
+.header .navbar h2{
+    float: left; 
+    text-transform: uppercase;}
+.header .navbar h2 span{color:#2ecc71;}
+.header .navbar ul
+{
+    list-style: none;
+    padding-left: 0px;
+    overflow: hidden;
+float: right;
+}
+.header .navbar ul li
+{
+float: left;
+padding: 10px;
+}
+.header .navbar ul li a
+{
+color: white;
+text-decoration: none;
+
+}
+.header .navbar ul li.active a ,
+.header .navbar ul li a:hover{
+    color: #30b571;
+}
+    /*end header*/
+    /*start Features*/
+.Features
+{
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.Features .feat{float: left;
+width: 33.33333%;
+height: 150px;
+background-color: #DDD;
+}
+.Features .feat h2{
+    text-transform: uppercase;
+    text-align: center;
+
+}
+    /*End Features*/
+    /*start about */
+
+.About-me {
+    background-color: #f2f2f2;
+overflow: hidden;}
+.About-me .image{
+    float: left;
+width:40% ;}
+
+.About-me .image img{width: 100%;}
+
+.About-me .info {
+   float: left;
+width: 60%;
+}
+
+.About-me .info .Hobbies
+{
+  overflow: hidden;
+  margin: 20px;  
+
+}
+.About-me .info .Hobbies > div
+ {
+    float: left;
+    width: 50%;
+    min-height: 100px;
+}
+
+/*End about me*/
+/*Start My skiils*/
+.MySKILLS{
+    padding-top: 30px;
+    padding-bottom: 30px;
+overflow: hidden;
+}
+.MySKILLS .SKILLS,
+.MySKILLS .progress
+{
+  
+width: 50%;
+float: left;
+
+
+}
+
+
+/*End My Skills*/
+ /*start resume*/
+ .resume{
+    background-color: #f2f2f2;
+    text-align: center;
+
+ }
+ /* end resume*/
+
+ /*Start My education*/
+.education{
+    padding-top: 30px;
+    padding-bottom: 30px;
+overflow: hidden;
+}
+.education .main,
+.education .exp
+{
+  
+width: 50%;
+float: left;
+
+
+}
+
+
+/*End My education*/
+/*start testimonials*/
+.testimonials{
+    background-color: #f2f2f2;
+    text-align: center;
+
+ }
+ /* end testimonials*/
+/*start portfolio*/
+.portfolio 
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+text-align: center;
+}
+.portfolio .our-work{
+    overflow: hidden;
+}
+.portfolio .our-work >div
+{
+float: left;
+width: 33.333%;
+margin-bottom: 10px;
+}
+.portfolio .our-work >div img
+{
+    width: 92%;
+    margin: 10px;
+}
+/*end portfolio*/
+/*star contact me*/
+.contact-me{
+    background-color: #252f31;
+    overflow: hidden;
+}
+.contact-me h2{
+    color: #FFF;
+    
+}
+.contact-me p{color:gray;}
+
+.contact-me .info,
+.contact-me .form
+{
+    width: 50%;
+    float: left;
+}
+
+
+/*end contact me*/
+.form{
+    overflow: hidden;
+   
+}
+.form .name,
+.form .email{
+    color: white;
+    display: block;
+   
+   
+}
+.form .gmail{
+color: white;
+display: block;
+
+}
+.form button{margin: 20px;
+display: block;
+background: none;
+color: #FFF;
+}
+/*start footer*/
+.footer{
+background-color:#191e22;
+color: gray;
+padding: 20px 0;
+text-align: center;
+}
+/*end footer*/
+
+
+</style>   
+</head>
+<body>
+    
+    <!--start header-->
+<div class="header">
+
+    <div class="slider">
+        <div class="continer">
+               <div class="intro"><h2>Web &AMP; Graphic Designer</h2>
+                <button>learn more</button>
+            </div>
+    </div>
+    
+</div>
+  <div class="navbar">  
+    <div class="continer"> 
+      <h2>WAl<span>YOU</span></h2>
+        <ul>
+<li class="active"><a href="#">Home</a></li>
+<li><a href="#">xAbout Us</a></li>
+<li><a href="#">SKILLS</a></li>
+<LI><a href="#">Resume</a></LI>
+<LI><a href="#">testemonials</a></LI>
+<LI><a href="#">portofolio</a></LI>
+<LI><a href="#">Contact Me</a></LI>
+</ul>
+    </div>
+</div>
+</div>
+  <!--end header-->
+<!--Start Features-->
+<div class="Features">
+    <div class="continer">
+        <div class="feat">
+            <h2>values</h2>
+        <p>lorem ipsum dolor sit amet , ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disutando cu est.</p>
+        </div>
+        <div class="feat">
+             <h2>Goals</h2>
+            <p>lorem ipsum dolor sit amet , ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disutando cu est.</p> 
+        </div>
+        <div class="feat">
+            <h2>Hobbies</h2>
+            <p>lorem ipsum dolor sit amet , ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disutando cu est.</p>
+        </div>
+    </div>
+</div>
+<!--End Features-->
+<!--start about me-->
+<div class="About-me">
+    <div class="continer">
+
+
+        <div class="image">
+<img src="http://placehold.it/300/300" alt="test">
+
+        </div>
+        <div class="info">
+       <h2>About Me</h2>
+       <p>lorem ipsum dolor sit amet , ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disutando cu est.</p>
+
+               <div class="Hobbies">
+         <div>WEB DESING</div>
+         <div>GRAPHIC DESIN</div>
+         <div>ONLINE MARKETING</div>
+         <div>SEO</div>
+               </div>
+        </div>
+    </div>
+</div> 
+<!--End about me-->
+<!--start my skills-->
+<div class="MySKILLS">
+<div class="continer">
+    <div class="SKILLS"> <h2> My SKILLS </h2>
+        <p>lorem ipsum dolor sit amet , ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disutando cu est.</p>
+    <button>Contacte Me</button>
+    </div>
+    <div class="progress">some progress</div>
+</div>
+
+
+</div>
+<!--End my skills-->
+<!--start resume-->
+<div class="resume">
+    <div class="continer">
+        <h2>Resume</h2>
+        <p>lorem ipsum dolor sit amet , ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disutando cu est.</p>
+   <button>Download Resume</button>
+    </div>
+</div>
+<!--End resume-->
+<!--start my education-->
+<div class="education">
+    <div class="continer">
+        <div class="main"> <h2> Education </h2>
+            <p>lorem ipsum dolor sit amet , ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disutando cu est.</p>
+ 
+        </div>
+        <div class="exp">some progress</div>
+    </div>
+    <div class="clearfix"></div>
+    <hr>
+    <div class="main"> <h2> Work Experience </h2>
+        <p>lorem ipsum dolor sit amet , ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disutando cu est.</p>
+
+    </div>
+    <div class="exp">some progress</div>
+
+    </div>
+    <!--End my education-->
+    <!--start testimonials-->
+<div class="testimonials">
+    <div class="continer">
+        
+        <p>lorem ipsum dolor sit amet , ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disutando cu est.</p>
+      <h3>wayou</h3>
+    </div>
+</div>
+<!--End testimonials-->
+<!--start portfolio-->
+<div class="portfolio">
+<div class="continer">
+    <h2>portfolio</h2>    
+    <p>lorem ipsum dolor sit amet , ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disutando cu est.</p>
+
+<div class="our-work">
+    <div><img src="http://www.placehold.it/350/333" alt=""></div>
+    <div><img src="http://www.placehold.it/350/333" alt=""></div>
+    <div><img src="http://www.placehold.it/350/333" alt=""></div>
+    <div><img src="http://www.placehold.it/350/333" alt=""></div>
+    <div><img src="http://www.placehold.it/350/333" alt=""></div>
+    <div><img src="http://www.placehold.it/350/333" alt=""></div>
+    <div><img src="http://www.placehold.it/350/333" alt=""></div>
+    <div><img src="http://www.placehold.it/350/333" alt=""></div>
+    <div><img src="http://www.placehold.it/350/333" alt=""></div>
+    
+  </div>
+     </div>
+</div>
+<!--End portfolio-->
+
+<!--start contact me-->
+<div class="contact-me">
+<div class="continer">
+    <div class="info">
+        <h2>Contact Me</h2>
+        <p>lorem ipsum dolor sit amet , ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disutando cu est.lorem ipsum dolor sit amet , ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disutando cu est.lorem ipsum dolor sit amet , ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disutando cu est.lorem ipsum dolor sit amet , ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disutando cu est.lorem ipsum dolor sit amet , ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disutando cu est.lorem ipsum dolor sit amet , ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disutando cu est.lorem ipsum dolor sit amet , ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disutando cu est.lorem ipsum dolor sit amet , ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disutando cu est.lorem ipsum dolor sit amet , ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disutando cu est.lorem ipsum dolor sit amet , ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disutando cu est.lorem ipsum dolor sit amet , ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disutando cu est.lorem ipsum dolor sit amet , ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disutando cu est.</p>
+  
+    </div>
+    <div class="form">
+        <label class="name">Name</label>
+        <input type="text" style="color: white; background-color: #4f5052;">
+         <label class="email">Email Address </label>
+         <input type="email"  style="color: white; background-color: #4f5052;">   
+         <label class="gmail">Email Address </label>
+         <input type="email" style="height: 200px; width: 400px; color: white; background-color: #4f5052;" > 
+
+         <button>Contacta Me</button>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<!--end contact me-->
+
+<!--start footer-->
+<div class="footer">
+<div class="continer">
+    copyright &copy; 2014 Focal
+</div>
+
+
+
+
+</div>
+<!--end footer-->
+
+
+
+
+
+
+</body>
+</html>
